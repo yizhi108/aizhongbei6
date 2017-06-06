@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  aizhongbei6
+//
+//  Created by zhangyao on 2017/5/24.
+//  Copyright © 2017年 zhangyao. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define URL_Head(x) [NSString stringWithFormat:@"https://www.inuc.xin/api/Interface/%@",x]
+#define IMEI 666666
+#define AppLogin_state appLogin_state
+#define USERDEFA [NSUserDefaults standardUserDefaults]
+#define APP_WIN [[[UIApplication sharedApplication] delegate] window]
+#define SCREENHEIGHT [UIScreen mainScreen].bounds.size.height
+#define SCREENWIDTH [UIScreen mainScreen].bounds.size.width
+
+#define TOKEN @"token_bundle"
+#define TOKEN_TYPE @"token_type"
+
+#endif /* PrefixHeader_pch */
